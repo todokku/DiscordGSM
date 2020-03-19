@@ -76,10 +76,10 @@ is_refresh = False
 @bot.event
 async def on_ready():
     # set username and avatar
-    with open('images/discordgsm.png', 'rb') as file:
+    with open('images/bitfor.jpg', 'rb') as file:
         try:
             avatar = file.read()
-            await bot.user.edit(username='DiscordGSM', avatar=avatar)
+            await bot.user.edit(username='BITFOR', avatar=avatar)
         except:
             pass
 
