@@ -13,7 +13,7 @@ local_version = 'v' + local_version[0]
 print(f'Local version:\n{local_version}')
 
 # get remote version
-url = 'https://api.github.com/repos/DiscordGSM/DiscordGSM/releases/latest'
+url = 'https://api.github.com/repos/BITFOR/DiscordGSM/releases/latest'
 r = requests.get(url)
 remote_version = re.findall('tag_name":"(.*?)"', r.text)
 remote_version = remote_version[0]
