@@ -1,8 +1,8 @@
 {
     "name": "Discord Game Server Monitor",
     "description": "Monitor your game servers on Discord",
-    "repository": "https://github.com/DiscordGSM/DiscordGSM",
-    "logo": "https://github.com/DiscordGSM/DiscordGSM/raw/master/images/discordgsm.png",
+    "repository": "https://github.com/BITFOR/DiscordGSM",
+    "logo": "https://github.com/BITFOR/DiscordGSM/raw/master/images/discordgsm.png",
     "keywords": ["discordgsm", "query", "gameserver", "gameservers", "monitor", "dgsm", "game-servers", "discord", "gaming", "game"],
     "env": {
         "DGSM_TOKEN": {
