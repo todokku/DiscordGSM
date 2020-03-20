@@ -4,8 +4,7 @@
 ## Introduction
 Monitor your game servers on Discord, tracking your game servers live data. Python 3.6 is used.
 
-## Install
-## 1. Deploy DiscordGSM to Heroku
+## Deploy to Heroku
 | Branch | Heroku Deploy  |
 | ------ | -------------- |
 | DiscordGSM#master | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
