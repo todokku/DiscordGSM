@@ -29,7 +29,7 @@ else:
 
         # download discordgsm   
         print(f'Download latest DiscordGSM...')
-        download_url = f'https://github.com/DiscordGSM/DiscordGSM/archive/{remote_version}.zip'
+        download_url = f'https://github.com/BITFOR/DiscordGSM/archive/{remote_version}.zip'
         with open('temp/DiscordGSM.zip', 'wb') as file:
             r = requests.get(download_url)
             file.write(r.content)
