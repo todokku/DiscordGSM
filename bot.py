@@ -222,7 +222,7 @@ def get_embed(server):
         if 'image_url' in server:
             image_url = str(server['image_url'])
         else:
-            image_url = f'https://github.com/DiscordGSM/Map-Thumbnails/raw/master/{urllib.parse.quote(data["game"])}/{urllib.parse.quote(data["map"])}.jpg'
+            image_url = f'https://github.com/BITFOR/Map-Thumbnails/raw/master/{urllib.parse.quote(data["game"])}/{urllib.parse.quote(data["map"])}.jpg'
 
         embed.set_thumbnail(url=image_url)
     else:
@@ -231,7 +231,7 @@ def get_embed(server):
         embed = discord.Embed(title='ERROR', description=f'{settings["fieldname"]["status"]}: :warning: **Fail to query**', color=color)
         embed.add_field(name=f'{settings["fieldname"]["port"]}', value=f'{server["addr"]}:{server["port"]}', inline=True)
     
-    embed.set_footer(text=f'DiscordGSM v{VERSION} | Monitor game server | Last update: ' + datetime.now().strftime('%a, %Y-%m-%d %I:%M:%S%p'), icon_url='https://github.com/BattlefieldDuck/DiscordGSM/raw/master/images/discordgsm.png')
+    embed.set_footer(text=f'DiscordGSM v{VERSION} | Monitor game server | Last update: ' + datetime.now().strftime('%a, %Y-%m-%d %I:%M:%S%p'), icon_url='https://github.com/BITFOR/DiscordGSM/raw/master/images/discordgsm.png')
     
     return embed
 
@@ -241,7 +241,7 @@ def get_embed(server):
 @commands.is_owner()
 async def _dgsm(ctx):
     title = f'Command: {settings["prefix"]}dgsm'
-    description = f'Thanks for using Discord Game Server Monitor ([DiscordGSM](https://github.com/BattlefieldDuck/DiscordGSM))\n'
+    description = f'Thanks for using Discord Game Server Monitor ([DiscordGSM](https://github.com/BITFOR/DiscordGSM))\n'
     description += f'\nUseful commands:\n{settings["prefix"]}servers - Display the server list'
     description += f'\n{settings["prefix"]}serveradd - Add a server'
     description += f'\n{settings["prefix"]}serverdel - Delete a server'
@@ -250,8 +250,8 @@ async def _dgsm(ctx):
     description += f'\n{settings["prefix"]}setserversjson - set servers.json file'
     color = discord.Color.from_rgb(114, 137, 218) # discord theme color
     embed = discord.Embed(title=title, description=description, color=color)
-    embed.add_field(name='Support server', value='https://discord.gg/Cg4Au9T', inline=True)
-    embed.add_field(name='Github', value='https://github.com/BattlefieldDuck/DiscordGSM', inline=True)
+    embed.add_field(name='Support server', value='https://discord.gg/whnjdcb', inline=True)
+    embed.add_field(name='Github', value='https://github.com/BITFOR/DiscordGSM', inline=True)
     await ctx.send(embed=embed)
 
 # command: servers
