@@ -1,12 +1,11 @@
 # DiscordGSM
-![screenshot](https://github.com/BattlefieldDuck/DiscordGSM/raw/master/images/v1.2.1.png)
+![DiscordGSM](https://github.com/BITFOR/DiscordGSM/blob/master/images/bitfor-dgsm.png?raw=true)
 
 ## Introduction
 Monitor your game servers on Discord, tracking your game servers live data. Python 3.6 is used.
 
-## Install
-1. [Deploy to Heroku](https://github.com/BattlefieldDuck/DiscordGSM/wiki/Install-%E2%80%93-Deploy-to-Heroku)
-2. [Self Hosting](https://github.com/BattlefieldDuck/DiscordGSM/wiki/Install-%E2%80%93-Self-Hosting)
-
-## Wiki
-<https://github.com/BattlefieldDuck/DiscordGSM/wiki>
+## Deploy to Heroku
+| Branch | Heroku Deploy  |
+| ------ | -------------- |
+| DiscordGSM#master | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BITFOR/DiscordGSM/tree/master)
+| DiscordGSM v1.4.0 | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BITFOR/DiscordGSM/tree/v1.4.0)
